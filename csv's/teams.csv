@@ -1,0 +1,149 @@
+id,year,name,park
+1,1884,"Altoona Mountain City",
+2,2001,"Anaheim Angels","Edison International Field"
+3,2001,"Arizona Diamondbacks","Bank One Ballpark"
+4,2001,"Atlanta Braves","Turner Field"
+5,1874,"Baltimore Canaries","Newington Park"
+6,1873,"Baltimore Marylands","Newington Park"
+7,1884,"Baltimore Monumentals",
+8,1889,"Baltimore Orioles","Oriole Park"
+9,1891,"Baltimore Orioles","Union Park"
+10,1899,"Baltimore Orioles","Union Park"
+11,1902,"Baltimore Orioles","Oriole Park"
+12,2001,"Baltimore Orioles","Oriole Park at Camden Yards"
+13,1915,"Baltimore Terrapins",
+14,1952,"Boston Braves","Braves Field"
+15,2001,"Boston Red Sox","Fenway Park II"
+16,1875,"Boston Red Stockings","South End Grounds I"
+17,1884,"Boston Reds",
+18,1890,"Boston Reds",
+19,1891,"Boston Reds","Congress Street Grounds"
+20,1875,"Brooklyn Atlantics","Union Grounds"
+21,1889,"Brooklyn Bridegrooms","Washington Park I"
+22,1957,"Brooklyn Dodgers","Ebbets Field"
+23,1872,"Brooklyn Eckfords","Union Grounds"
+24,1890,"Brooklyn Gladiators","Ridgewood Park"
+25,1915,"Brooklyn Tip-Tops",
+26,1890,"Brooklyn Ward's Wonders",
+27,1885,"Buffalo Bisons","Olympic Park I"
+28,1890,"Buffalo Bisons",
+29,1915,"Buffalo Blues",
+30,1996,"California Angels","Anaheim Stadium"
+31,2001,"Chicago Cubs","Wrigley Field"
+32,1890,"Chicago Pirates",
+33,1915,"Chicago Whales","Wrigley Field"
+34,2001,"Chicago White Sox","Comiskey Park II"
+35,1871,"Chicago White Stockings","Union Base-Ball Grounds"
+36,1875,"Chicago White Stockings","23rd Street Grounds"
+37,1884,"Chicago/Pittsburgh (Union League)",
+38,1891,"Cincinnati Kelly's Killers","East End Park"
+39,1884,"Cincinnati Outlaw Reds",
+40,1889,"Cincinnati Red Stockings","League Park I in Cincinnati"
+41,1880,"Cincinnati Reds","Bank Street Grounds"
+42,2001,"Cincinnati Reds","Cinergy Field"
+43,1884,"Cleveland Blues","Kennard Street Park"
+44,1888,"Cleveland Blues","National League Park II"
+45,1872,"Cleveland Forest Citys","National Association Grounds"
+46,2001,"Cleveland Indians","Jacobs Field"
+47,1890,"Cleveland Infants",
+48,1899,"Cleveland Spiders","League Park I"
+49,2001,"Colorado Rockies","Coors Field"
+50,1884,"Columbus Buckeyes","Recreation Park I"
+51,1891,"Columbus Solons","Recreation Park II"
+52,2001,"Detroit Tigers","Comerica Park"
+53,1888,"Detroit Wolverines","Recreation Park"
+54,1873,"Elizabeth Resolutes","Waverly Fairgrounds"
+55,2001,"Florida Marlins","Pro Player Stadium"
+56,1871,"Fort Wayne Kekiongas","Hamilton Field"
+57,1875,"Hartford Dark Blues","Hartford Ball Club Grounds"
+58,1877,"Hartford Dark Blues","Union Grounds (Brooklyn)"
+59,2001,"Houston Astros","Enron Field"
+60,1878,"Indianapolis Blues","South Street Park"
+61,1884,"Indianapolis Hoosiers","Seventh Street Park"
+62,1889,"Indianapolis Hoosiers","Athletic Park II"
+63,1914,"Indianapolis Hoosiers",
+64,1967,"Kansas City Athletics","Municipal Stadium I"
+65,1884,"Kansas City Cowboys",
+66,1886,"Kansas City Cowboys","Association Park"
+67,1889,"Kansas City Cowboys","Exposition Park"
+68,1915,"Kansas City Packers",
+69,2001,"Kansas City Royals","Kauffman Stadium"
+70,1875,"Keokuk Westerns","Perry Park"
+71,1964,"Los Angeles Angels","Dodger Stadium"
+72,2001,"Los Angeles Dodgers","Dodger Stadium"
+73,1891,"Louisville Colonels","Eclipse Park I"
+74,1899,"Louisville Colonels","Eclipse Park II"
+75,1877,"Louisville Grays","Louisville Baseball Park"
+76,1872,"Middletown Mansfields","Mansfield Club Grounds"
+77,1965,"Milwaukee Braves","County Stadium"
+78,1884,"Milwaukee Brewers",
+79,1891,"Milwaukee Brewers","Athletic Field"
+80,1901,"Milwaukee Brewers","Lloyd Street Grounds"
+81,1997,"Milwaukee Brewers","County Stadium"
+82,2001,"Milwaukee Brewers","Miller Park"
+83,1878,"Milwaukee Grays","Eclipse Park II"
+84,2001,"Minnesota Twins","Hubert H Humphrey Metrodome"
+85,2001,"Montreal Expos","Stade Olympique"
+86,1875,"New Haven Elm Citys","Hamilton Park"
+87,1890,"New York Giants",
+88,1957,"New York Giants","Polo Grounds IV"
+89,1887,"New York Metropolitans","St. George Cricket Grounds"
+90,2001,"New York Mets","Shea Stadium"
+91,1875,"New York Mutuals","Union Grounds (Brooklyn)"
+92,1876,"New York Mutuals","Union Grounds (Brooklyn)"
+93,2001,"New York Yankees","Yankee Stadium II"
+94,1915,"Newark Pepper",
+95,2001,"Oakland Athletics","Oakland Coliseum"
+96,1875,"Philadelphia Athletics","Jefferson Street Grounds"
+97,1876,"Philadelphia Athletics","Jefferson Street Grounds"
+98,1890,"Philadelphia Athletics",
+99,1891,"Philadelphia Athletics","Athletic Park"
+100,1954,"Philadelphia Athletics","Connie Mack Stadium"
+101,1875,"Philadelphia Centennials","Centennial Grounds"
+102,1884,"Philadelphia Keystones",
+103,2001,"Philadelphia Phillies","Veterans Stadium"
+104,1875,"Philadelphia Whites","Jefferson Street Grounds"
+105,1886,"Pittsburg Alleghenys","Recreation Park"
+106,1890,"Pittsburgh Burghers",
+107,2001,"Pittsburgh Pirates","PNC Park"
+108,1915,"Pittsburgh Rebels",
+109,1885,"Providence Grays","Messer Street Grounds"
+110,1884,"Richmond Virginians","Allen Pasture"
+111,1890,"Rochester Broncos","Culver Field I"
+112,1871,"Rockford Forest Citys","Agricultural Society Fair Grounds"
+113,2001,"San Diego Padres","Qualcomm Stadium"
+114,2001,"San Francisco Giants","PacBell Park"
+115,2001,"Seattle Mariners","Safeco Field"
+116,1969,"Seattle Pilots","Sicks Stadium"
+117,1875,"St. Louis Brown Stockings","Grand Avenue Park"
+118,1877,"St. Louis Brown Stockings","Sportsman's Park I"
+119,1891,"St. Louis Browns","Sportsman's Park I"
+120,1953,"St. Louis Browns","Sportsman's Park IV"
+121,2001,"St. Louis Cardinals","Busch Stadium II"
+122,1884,"St. Louis Maroons",
+123,1886,"St. Louis Maroons","Sportsman's Park I"
+124,1875,"St. Louis Red Stockings","Red Stocking Baseball Park"
+125,1915,"St. Louis Terriers",
+126,1884,"St. Paul White Caps",
+127,1879,"Syracuse Stars","Newell Park"
+128,1890,"Syracuse Stars","Star Park II"
+129,2001,"Tampa Bay Devil Rays","Tropicana Field"
+130,2001,"Texas Rangers","The Ballpark at Arlington"
+131,1884,"Toledo Blue Stockings","League Park"
+132,1890,"Toledo Maumees","Speranza Park"
+133,2001,"Toronto Blue Jays",Skydome
+134,1872,"Troy Haymakers","Haymakers' Grounds"
+135,1882,"Troy Trojans","Troy Ball Club Grounds"
+136,1873,"Washington Blue Legs","Olympics Grounds"
+137,1872,"Washington Nationals","Nationals Grounds"
+138,1875,"Washington Nationals","Olympics Grounds"
+139,1884,"Washington Nationals",
+140,1884,"Washington Nationals","Athletic Park"
+141,1889,"Washington Nationals","Swampdoodle Grounds"
+142,1872,"Washington Olympics","Olympics Grounds"
+143,1899,"Washington Senators","Boundary Field"
+144,1960,"Washington Senators","Griffith Stadium II"
+145,1971,"Washington Senators","R.F.K. Stadium"
+146,1891,"Washington Statesmen","Boundary Field"
+147,1884,"Wilmington Quicksteps",
+148,1882,"Worcester Ruby Legs","Worcester Driving Park Grounds"
