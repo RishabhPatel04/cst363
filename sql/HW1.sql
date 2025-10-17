@@ -1,7 +1,3 @@
--- Rishabh Patel
--- CST363-01-02-M_224
--- 17-09-2025
-
 -- 1. Show the name and salary of all instructors sorted by instructor_name
 select instructor_name, salary from instructor
 order by instructor_name ASC;
@@ -71,7 +67,8 @@ SELECT DISTINCT instructor_id, course_id FROM teaches
 GROUP BY instructor_id, course_id
 ORDER BY instructor_id, course_id;
 
--- 14. (2 points) For each instructor show the instructor_id, instructor_name, monthly salary (salary divided by 12 rounded to integer) labeled as "monthly_salary". Order the result by monthly salary largest to smallest. Hint: use an alias for monthly salary
+-- 14. (2 points) For each instructor show the instructor_id, instructor_name, monthly salary (salary divided by 12 rounded to integer) labeled as "monthly_salary". Order the result by monthly salary largest to smallest. 
+--Hint: use an alias for monthly salary
 SELECT instructor_id, instructor_name, ROUND(salary / 12) AS monthly_salary FROM instructor
 ORDER BY monthly_salary DESC;
 

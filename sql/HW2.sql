@@ -45,7 +45,8 @@ GROUP BY s.dept_name
 HAVING COUNT(*) > 2
 ORDER BY major;
 
---6. (2 pts) List all departments and the number of students majoring in that department (use label "students_in_major") and have more than 90 total credits. Order by department name. Answer: 7 department rows. History, Music and Physics departments have 0 students
+--6. (2 pts) List all departments and the number of students majoring in that department (use label "students_in_major") and have more than 90 total credits. Order by department name. 
+--Answer: 7 department rows. History, Music and Physics departments have 0 students
 SELECT
   d.dept_name,
   COUNT(s.student_id) AS students_in_major
@@ -56,7 +57,8 @@ LEFT JOIN student s
 GROUP BY d.dept_name
 ORDER BY d.dept_name;
 
---7. (3 pts) Show the instructor ID, name, course title and number of times taught. Order the result by id, then title. If an instructor has not taught any courses then list title as NULL and count as 0. Answer: Gold, Califeri and Singh have not taught courses.
+--7. (3 pts) Show the instructor ID, name, course title and number of times taught. Order the result by id, then title. If an instructor has not taught any courses then list title as NULL and count as 0. 
+--Answer: Gold, Califeri and Singh have not taught courses.
 --(Hint: You will need to use two LEFT JOINs here.)
 SELECT
   i.instructor_id,
@@ -81,7 +83,8 @@ JOIN takes t ON t.student_id = s.student_id
 GROUP BY s.student_id, s.student_name
 HAVING COUNT(*) > 2
 ORDER BY student_id;
---9. (4 pts) Calculate the GPA for each student: Multiply the sum of numeric value of the grade times the course credits and divide by the sum of course credits for all courses taken. The numeric value of a grade can be found in the grade_points table. The course credit value is in the course table.
+--9. (4 pts) Calculate the GPA for each student: Multiply the sum of numeric value of the grade times the course credits and divide by the sum of course credits for all courses taken. 
+--The numeric value of a grade can be found in the grade_points table. The course credit value is in the course table.
 --Label the GPA column as GPA and round to two significant digits. To check your work: Zhang has a GPA 3.87, Snow has a NULL GPA (Hint: You will to need use 3 LEFT JOINs here.)
 SELECT
   s.student_id,

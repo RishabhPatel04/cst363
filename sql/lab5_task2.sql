@@ -69,39 +69,3 @@ SELECT
 FROM hits_cte c
 JOIN players p ON p.id = c.player_id
 ORDER BY c.year ASC, c.total_hits DESC;
-
--- task3.md (5 points)
--- Psycopg is a PostgreSQL adapter for Python. It lets Python programs connect to a PostgreSQL
--- database, run SQL queries, and handle results efficiently.
--- With Psycopg, you can:
--- - Establish a connection to a PostgreSQL database.
--- - Execute SQL commands (e.g., SELECT, INSERT, UPDATE).
--- - Retrieve query results in Python-friendly formats.
--- - Manage transactions safely and reliably.
---
--- Installation in cst363env (with venv activated):
---   pip install --upgrade pip
---   pip install "psycopg[binary]"
---
--- Sample Python code (run from Python, not SQL):
---   import psycopg
---   from pprint import pprint
---   connection = psycopg.connect(
---       host='127.0.0.1', port=5431, dbname='baseball_db', user='postgres', password='ott3r')
---   cur = connection.cursor()
---   query = """
---   SELECT id, first_name || ' ' || last_name AS player_name, birth_year
---   FROM players;
---   """
---   cur.execute(query)
---   rows = cur.fetchall()
---   players_dict = {row[0]: (row[1], row[2]) for row in rows}
---   cur.close(); connection.close(); pprint(players_dict)
--- Take a screenshot of your result.
-
--- task4.md (5 points)
--- Query the tables players and performances separately in a Python program. Store:
--- - players_dict: { player_id: full_name }
--- - perf_dict: { player_id: [(team_id, year), ...] }
--- Then merge: for each player in players_dict, look up perf_dict; if exists, store list,
--- otherwise store empty list. Do this step in Python, not in SQL.
