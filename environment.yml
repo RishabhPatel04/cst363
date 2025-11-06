@@ -2,4 +2,3 @@ name: myenv
 dependencies:
   - python=3.9
   - pip
-  # add other dependencies here as needed
